@@ -1,0 +1,73 @@
+.background-blue{
+	background-color: #1FA2FF;
+}
+.background-blue > .container > p{
+	color: white;
+	font-size: 36px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.input-box{
+	background-color: #E0E0E0;
+	border-style: none;
+}
+.select-custom {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+}
+.no-top-bottom{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.padding-top-5{
+	padding-top: 5px;
+}
+.addon{
+	padding: 10px 20px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background-color: #e9ecef;
+}
+
+.select-custom select {
+	margin-left: -6px !important;	
+	margin-top: -4px !important;	
+  display: inline-block;
+  font: inherit;
+  outline: none;
+  /* remove focus ring from Webkit */
+  line-height: 1.2;
+  -webkit-appearance: none;
+  /* remove the strong OSX influence from Webkit */
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+}
+.no-border{
+	border-radius: 0px!important;
+}
+
+/* Select arrow styling */
+.select-custom:after {
+  content: "\25bc";
+  position: absolute;
+  top: -4px;
+  right: 0;
+  bottom: 0;
+  font-size: 60%;
+  line-height: 30px;
+  padding-top: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: #bbb;
+  color: white;
+  pointer-events: none;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.no-pointer-events .select-custom:after {
+  content: none;
+}

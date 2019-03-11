@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-blue{
+    background-color: #1FA2FF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-left: 130px;
+}
+.container{
+    margin-top: 15px;
+}
+.next-btn{
+    width: 150px;
+    float: right;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.form-group{
+    margin-top:25px;
+}
+
+    

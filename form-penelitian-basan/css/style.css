@@ -71,3 +71,9 @@
 .no-pointer-events .select-custom:after {
   content: none;
 }
+.next-btn{
+  width: 150px;
+  float: right;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
